@@ -38,6 +38,21 @@ async function buildAll() {
   console.log("building client...");
   await viteBuild({
     base: "./",
+    build: {
+      assetsDir: ".", 
+      rollupOptions: {
+        output: {
+          entryFileNames: "js/script.js",
+          chunkFileNames: "js/script.js", 
+          assetFileNames: (assetInfo) => {
+            if (assetInfo.name && assetInfo.name.endsWith(".css")) {
+              return "css/style.css";
+            }
+            return "assets/[name][extname]";
+          },
+        },
+      },
+    },
   });
 
   console.log("building server...");
