@@ -10,6 +10,10 @@ import audienceThumbnail from '@assets/generated_images/audience_in_a_conference
 import doctorAvatar from '@assets/generated_images/professional_headshot_of_a_male_doctor_with_glasses.png';
 import femaleAvatar from '@assets/generated_images/generic_female_user_avatar.png';
 import maleAvatar from '@assets/generated_images/generic_male_user_avatar.png';
+import middleAgedAvatar from '@assets/generated_images/avatar_of_a_middle-aged_woman_with_short_hair.png';
+import youngDarkHairAvatar from '@assets/generated_images/avatar_of_a_young_woman_with_long_dark_hair.png';
+import glassesAvatar from '@assets/generated_images/avatar_of_a_woman_with_glasses.png';
+import seniorAvatar from '@assets/generated_images/avatar_of_a_senior_woman.png';
 
 // Mock Data for Comments
 const INITIAL_COMMENTS = [
@@ -17,7 +21,7 @@ const INITIAL_COMMENTS = [
     id: 1,
     user: "@shoshannamirecourt",
     time: "3 days ago",
-    avatar: femaleAvatar,
+    avatar: youngDarkHairAvatar,
     text: "Doc, you literally saved my life! I lost 64 pounds in just 2 months with this recipe and finally got my pre-diabetes under control. Seriously, thank you so much for the tip. 🥰",
     likes: 18,
     isLiked: false
@@ -26,7 +30,7 @@ const INITIAL_COMMENTS = [
     id: 2,
     user: "@rebeccacollins",
     time: "2 days ago",
-    avatar: femaleAvatar,
+    avatar: middleAgedAvatar,
     text: "Best video I've watched in months! 🙏 I'm a mom of two boys and I barely have time to breathe, let alone diet or hit the gym. I started the pink salt trick and boom—14 pounds gone in 10 days.",
     likes: 7,
     isLiked: false
@@ -35,7 +39,7 @@ const INITIAL_COMMENTS = [
     id: 3,
     user: "@marjoriewhitlock",
     time: "9 hours ago",
-    avatar: femaleAvatar,
+    avatar: seniorAvatar,
     text: "Has anyone else tried it for that stubborn menopause belly fat? It worked wonders for me! I'm heading into week three and so happy my shirts don't cling to my stomach anymore.",
     likes: 8,
     isLiked: false
@@ -44,7 +48,7 @@ const INITIAL_COMMENTS = [
     id: 4,
     user: "@eulaliaravenscroft",
     time: "3 days ago",
-    avatar: femaleAvatar,
+    avatar: glassesAvatar,
     text: "I tried so many gelatin tricks all over the internet that I didn't believe it at first. But then I tried this Red one and realized I was just making it wrong before! Down 26 pounds in 18 days. My husband can't keep his hands off my waist now",
     likes: 15,
     isLiked: false
@@ -62,7 +66,7 @@ const INITIAL_COMMENTS = [
     id: 6,
     user: "@tamsinfairchild",
     time: "5 days ago",
-    avatar: femaleAvatar,
+    avatar: youngDarkHairAvatar,
     text: "I waited 30 days before saying anything about this trick... now I'm on day 35 and 34 pounds down, and my waist looks like it did in my 20s 😳",
     likes: 11,
     isLiked: false
@@ -71,7 +75,7 @@ const INITIAL_COMMENTS = [
     id: 7,
     user: "@corinneharlow",
     time: "5 days ago",
-    avatar: femaleAvatar,
+    avatar: middleAgedAvatar,
     text: "Everyone at work thinks I got lipo because of this red gelatin 😂",
     likes: 5,
     isLiked: false
@@ -80,7 +84,7 @@ const INITIAL_COMMENTS = [
     id: 8,
     user: "@jenniferanderson",
     time: "3 days ago",
-    avatar: femaleAvatar,
+    avatar: glassesAvatar,
     text: "All I'm gonna say is: Do it!! It's simple, everyone's got the ingredients at home, and it takes less than 5 minutes. I had to stop doing this red gelatin 'cause I was dropping weight way too fast and all my clothes were hanging off me.",
     likes: 12,
     isLiked: false
