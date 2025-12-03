@@ -376,23 +376,7 @@ export default function YoutubeClone() {
             </div>
           </div>
 
-          {/* RIGHT COLUMN (Suggestions - Hidden on mobile, visible on large screens) */}
-          <div className="hidden lg:block w-[350px] shrink-0">
-             {/* Fake Suggestions */}
-             {[1,2,3,4,5].map((i) => (
-               <div key={i} className="flex gap-2 mb-4 cursor-pointer">
-                 <div className="w-40 h-24 bg-gray-200 rounded-lg shrink-0 overflow-hidden relative">
-                    <div className="absolute bottom-1 right-1 bg-black/80 text-white text-xs px-1 rounded">10:0{i}</div>
-                 </div>
-                 <div className="flex flex-col gap-1">
-                   <h3 className="text-sm font-semibold line-clamp-2 leading-tight">How to lose weight naturally with this simple trick</h3>
-                   <p className="text-xs text-[#606060]">Health & Fitness</p>
-                   <p className="text-xs text-[#606060]">10K views • 2 days ago</p>
-                 </div>
-               </div>
-             ))}
-          </div>
-
+          {/* RIGHT COLUMN (Suggestions - REMOVED) */}
         </div>
       </main>
     </div>
